@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+    #logo {
+        padding-top: 2em;
+    }
+    #top {
+        font-family: 'Lobster', cursive;
+        font-size: 2em;
+        /* height: 90vh; */
+        padding-top: 1.5em;
+        text-align: center;
+    }
+    #profile-img {
+        width: 9em;
+        padding-top: 2em;
+    }
+    #dots {
+        text-align: center;
+    }
+    #dots span {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: rgb(113, 228, 128);
+        display: inline-block;
+        margin: 0 12px;
+    }
+    /* about me */
+    #about-me {
+        background-color: rgb(0, 200, 255);
+        border-radius: 0 100px 100px 100px;
+    }
+    .paragraph {
+        border: 12px solid rgb(113, 228, 128);
+        border-radius: 0 100px 100px 100px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    /* portfolio */
+    #portfolio {
+        padding: 5em
+    }
+    .card {
+        background-color: rgb(0, 200, 255);
+        width: 20em;
+        height: 25em;
+    }
+    .card-img {
+        width: 15em;
+        height: 15em;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.425);
+    }
+    .card-description {
+        background-color: rgba(211, 25, 25, 0.425);
+        margin: 2em auto;
+        height: 7em;
+        width: 18em;
+       
+    }
+
+    /* contact me */
+    #social-media{
+        background-color: rgba(0, 0, 0, 0.356);
+    }
+    
+    
+    .social-logo{
+        height: 3em;
+        margin-left: 5em;
+        
+    }
+
+}
+
+/* tablet */
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* laptop */
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/*wide monitor */
+
+@media only screen and (min-width: 1280px) {
+    body {
+        background-color: green;
+    }
+}
+
+/*ultra wide monitor */
+
+@media only screen and (min-width: 2000px) {
+    body {
+        background-color: purple;
+    }
+}
